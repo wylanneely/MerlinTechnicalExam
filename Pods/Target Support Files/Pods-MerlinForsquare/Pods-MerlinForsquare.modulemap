@@ -1,0 +1,6 @@
+framework module Pods_MerlinForsquare {
+  umbrella header "Pods-MerlinForsquare-umbrella.h"
+
+  export *
+  module * { export * }
+}

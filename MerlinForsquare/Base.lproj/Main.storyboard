@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TMr-C8-AA3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map-->
+        <scene sceneID="OB4-Ub-Xep">
+            <objects>
+                <viewController id="t07-WQ-wYK" customClass="MapViewViewController" customModule="MerlinForsquare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wDi-h6-xTl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="u3y-Gk-Qmh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u3y-Gk-Qmh" firstAttribute="leading" secondItem="HPE-of-Tuf" secondAttribute="leading" id="5xh-pF-UTI"/>
+                            <constraint firstItem="u3y-Gk-Qmh" firstAttribute="bottom" secondItem="HPE-of-Tuf" secondAttribute="bottom" id="ELO-6f-yIW"/>
+                            <constraint firstItem="u3y-Gk-Qmh" firstAttribute="top" secondItem="HPE-of-Tuf" secondAttribute="top" id="TXe-8I-dpo"/>
+                            <constraint firstItem="u3y-Gk-Qmh" firstAttribute="trailing" secondItem="HPE-of-Tuf" secondAttribute="trailing" id="dvE-Aa-sMo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HPE-of-Tuf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="mapIcon" id="WJy-QJ-r5y"/>
+                    <connections>
+                        <outlet property="mapView" destination="u3y-Gk-Qmh" id="TJd-TT-9MG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRX-M1-42V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="496.80000000000001" y="64.31784107946028"/>
+        </scene>
+        <!--List-->
+        <scene sceneID="1d3-0l-ffU">
+            <objects>
+                <viewController id="Atz-lB-4Ix" customClass="GridViewController" customModule="MerlinForsquare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yln-eG-tAL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1EI-c9-GYf">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="CG4-zo-Wp1">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CG4-zo-Wp1" id="7zP-Me-WEg" customClass="VenueTableViewCell" customModule="MerlinForsquare" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1EI-c9-GYf" firstAttribute="leading" secondItem="Bdj-Ja-RrN" secondAttribute="leading" id="6Rx-5p-yGw"/>
+                            <constraint firstItem="Bdj-Ja-RrN" firstAttribute="bottom" secondItem="1EI-c9-GYf" secondAttribute="bottom" id="A4L-NH-AFQ"/>
+                            <constraint firstItem="Bdj-Ja-RrN" firstAttribute="trailing" secondItem="1EI-c9-GYf" secondAttribute="trailing" id="aJM-aN-fcB"/>
+                            <constraint firstItem="1EI-c9-GYf" firstAttribute="top" secondItem="Bdj-Ja-RrN" secondAttribute="top" id="kGK-ey-dKf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bdj-Ja-RrN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="List" image="listIcon" id="fIf-Kt-576"/>
+                    <connections>
+                        <outlet property="venueTableview" destination="1EI-c9-GYf" id="y83-2K-RHu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iwb-cO-Wlf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254" y="66"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UMQ-C3-BCH">
+            <objects>
+                <tabBarController id="TMr-C8-AA3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dGE-hu-OML">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Atz-lB-4Ix" kind="relationship" relationship="viewControllers" id="03J-XJ-jx6"/>
+                        <segue destination="t07-WQ-wYK" kind="relationship" relationship="viewControllers" id="wDu-Zj-gLr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lve-D0-Xlm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198" y="842"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="listIcon" width="32" height="32"/>
+        <image name="mapIcon" width="32" height="32"/>
+    </resources>
+</document>

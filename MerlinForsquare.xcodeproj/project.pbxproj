@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFA584C436DD6B5CE819903B /* Pods_MerlinForsquare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A51A5E84CA9AC028E48A5CE /* Pods_MerlinForsquare.framework */; };
+		DA2D687121BAF7AE006D70B1 /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D687021BAF7AE006D70B1 /* MapViewViewController.swift */; };
+		DA2D687321BAF7D7006D70B1 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D687221BAF7D7006D70B1 /* GridViewController.swift */; };
+		DA88BD5E21BB023200436311 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA88BD5D21BB023200436311 /* CoreLocation.framework */; };
+		DA9C078921BCAA8C003C00D1 /* VenueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9C078721BCAA8C003C00D1 /* VenueTableViewCell.swift */; };
+		DA9C078A21BCAA8C003C00D1 /* VenueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9C078821BCAA8C003C00D1 /* VenueTableViewCell.xib */; };
+		DAD5F6CB21BD9D8E00258502 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5F6CA21BD9D8E00258502 /* ImageController.swift */; };
+		DAD5F6CD21BE003000258502 /* VenuePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5F6CC21BE003000258502 /* VenuePin.swift */; };
+		DAD5F6D021BE061600258502 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD5F6CF21BE061600258502 /* StringExtensions.swift */; };
+		DADE521921B796AD0006EAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE521821B796AD0006EAA9 /* AppDelegate.swift */; };
+		DADE521E21B796AD0006EAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADE521C21B796AD0006EAA9 /* Main.storyboard */; };
+		DADE522021B796B00006EAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADE521F21B796B00006EAA9 /* Assets.xcassets */; };
+		DADE522321B796B00006EAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADE522121B796B00006EAA9 /* LaunchScreen.storyboard */; };
+		DADE524B21B799380006EAA9 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE524A21B799380006EAA9 /* NetworkController.swift */; };
+		DADE524D21B79DA90006EAA9 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE524C21B79DA90006EAA9 /* Venue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADE522A21B796B00006EAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADE520D21B796AD0006EAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADE521421B796AD0006EAA9;
+			remoteInfo = MerlinForsquare;
+		};
+		DADE523521B796B00006EAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADE520D21B796AD0006EAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADE521421B796AD0006EAA9;
+			remoteInfo = MerlinForsquare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A51A5E84CA9AC028E48A5CE /* Pods_MerlinForsquare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerlinForsquare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0970437074ECBC2C2936061 /* Pods-MerlinForsquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerlinForsquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MerlinForsquare/Pods-MerlinForsquare.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A775C499F9930D965149F1 /* Pods-MerlinForsquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerlinForsquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MerlinForsquare/Pods-MerlinForsquare.release.xcconfig"; sourceTree = "<group>"; };
+		DA2D687021BAF7AE006D70B1 /* MapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
+		DA2D687221BAF7D7006D70B1 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		DA88BD5D21BB023200436311 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DA9C078721BCAA8C003C00D1 /* VenueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTableViewCell.swift; sourceTree = "<group>"; };
+		DA9C078821BCAA8C003C00D1 /* VenueTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueTableViewCell.xib; sourceTree = "<group>"; };
+		DAD5F6CA21BD9D8E00258502 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		DAD5F6CC21BE003000258502 /* VenuePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuePin.swift; sourceTree = "<group>"; };
+		DAD5F6CF21BE061600258502 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		DADE521521B796AD0006EAA9 /* MerlinForsquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerlinForsquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADE521821B796AD0006EAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADE521D21B796AD0006EAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADE521F21B796B00006EAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DADE522221B796B00006EAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DADE522921B796B00006EAA9 /* MerlinForsquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerlinForsquareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADE522F21B796B00006EAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADE523421B796B00006EAA9 /* MerlinForsquareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerlinForsquareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADE524A21B799380006EAA9 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		DADE524C21B79DA90006EAA9 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADE521221B796AD0006EAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA88BD5E21BB023200436311 /* CoreLocation.framework in Frameworks */,
+				AFA584C436DD6B5CE819903B /* Pods_MerlinForsquare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADE522621B796B00006EAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADE523121B796B00006EAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297DAAED1769B4672596CCEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0970437074ECBC2C2936061 /* Pods-MerlinForsquare.debug.xcconfig */,
+				C6A775C499F9930D965149F1 /* Pods-MerlinForsquare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA88BD5C21BB023200436311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA88BD5D21BB023200436311 /* CoreLocation.framework */,
+				5A51A5E84CA9AC028E48A5CE /* Pods_MerlinForsquare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA88BD5F21BB0A1000436311 /* Resources  */ = {
+			isa = PBXGroup;
+			children = (
+				DADE521821B796AD0006EAA9 /* AppDelegate.swift */,
+				DADE521F21B796B00006EAA9 /* Assets.xcassets */,
+				DADE522F21B796B00006EAA9 /* Info.plist */,
+			);
+			path = "Resources ";
+			sourceTree = "<group>";
+		};
+		DA9C078B21BCAA98003C00D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA9C078721BCAA8C003C00D1 /* VenueTableViewCell.swift */,
+				DA9C078821BCAA8C003C00D1 /* VenueTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DAD5F6CE21BE05F400258502 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5F6CF21BE061600258502 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DADE520C21B796AD0006EAA9 = {
+			isa = PBXGroup;
+			children = (
+				DADE521721B796AD0006EAA9 /* MerlinForsquare */,
+				DA88BD5F21BB0A1000436311 /* Resources  */,
+				DADE521621B796AD0006EAA9 /* Products */,
+				DA88BD5C21BB023200436311 /* Frameworks */,
+				297DAAED1769B4672596CCEF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DADE521621B796AD0006EAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADE521521B796AD0006EAA9 /* MerlinForsquare.app */,
+				DADE522921B796B00006EAA9 /* MerlinForsquareTests.xctest */,
+				DADE523421B796B00006EAA9 /* MerlinForsquareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADE521721B796AD0006EAA9 /* MerlinForsquare */ = {
+			isa = PBXGroup;
+			children = (
+				DADE521C21B796AD0006EAA9 /* Main.storyboard */,
+				DADE522121B796B00006EAA9 /* LaunchScreen.storyboard */,
+				DADE524621B796C10006EAA9 /* Models */,
+				DA9C078B21BCAA98003C00D1 /* Views */,
+				DADE524921B796E10006EAA9 /* ViewControllers */,
+				DADE524821B796DB0006EAA9 /* Controllers */,
+				DAD5F6CE21BE05F400258502 /* Extensions */,
+			);
+			path = MerlinForsquare;
+			sourceTree = "<group>";
+		};
+		DADE524621B796C10006EAA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DADE524C21B79DA90006EAA9 /* Venue.swift */,
+				DAD5F6CC21BE003000258502 /* VenuePin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DADE524821B796DB0006EAA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DADE524A21B799380006EAA9 /* NetworkController.swift */,
+				DAD5F6CA21BD9D8E00258502 /* ImageController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DADE524921B796E10006EAA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D687021BAF7AE006D70B1 /* MapViewViewController.swift */,
+				DA2D687221BAF7D7006D70B1 /* GridViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADE521421B796AD0006EAA9 /* MerlinForsquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADE523D21B796B00006EAA9 /* Build configuration list for PBXNativeTarget "MerlinForsquare" */;
+			buildPhases = (
+				4A103092875FF9104178378D /* [CP] Check Pods Manifest.lock */,
+				DADE521121B796AD0006EAA9 /* Sources */,
+				DADE521221B796AD0006EAA9 /* Frameworks */,
+				DADE521321B796AD0006EAA9 /* Resources */,
+				40F43BC4DD117AAC5FABECCB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerlinForsquare;
+			productName = MerlinForsquare;
+			productReference = DADE521521B796AD0006EAA9 /* MerlinForsquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADE522821B796B00006EAA9 /* MerlinForsquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADE524021B796B00006EAA9 /* Build configuration list for PBXNativeTarget "MerlinForsquareTests" */;
+			buildPhases = (
+				DADE522521B796B00006EAA9 /* Sources */,
+				DADE522621B796B00006EAA9 /* Frameworks */,
+				DADE522721B796B00006EAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADE522B21B796B00006EAA9 /* PBXTargetDependency */,
+			);
+			name = MerlinForsquareTests;
+			productName = MerlinForsquareTests;
+			productReference = DADE522921B796B00006EAA9 /* MerlinForsquareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DADE523321B796B00006EAA9 /* MerlinForsquareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADE524321B796B00006EAA9 /* Build configuration list for PBXNativeTarget "MerlinForsquareUITests" */;
+			buildPhases = (
+				DADE523021B796B00006EAA9 /* Sources */,
+				DADE523121B796B00006EAA9 /* Frameworks */,
+				DADE523221B796B00006EAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADE523621B796B00006EAA9 /* PBXTargetDependency */,
+			);
+			name = MerlinForsquareUITests;
+			productName = MerlinForsquareUITests;
+			productReference = DADE523421B796B00006EAA9 /* MerlinForsquareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADE520D21B796AD0006EAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Wylan Neely";
+				TargetAttributes = {
+					DADE521421B796AD0006EAA9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DADE522821B796B00006EAA9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DADE521421B796AD0006EAA9;
+					};
+					DADE523321B796B00006EAA9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DADE521421B796AD0006EAA9;
+					};
+				};
+			};
+			buildConfigurationList = DADE521021B796AD0006EAA9 /* Build configuration list for PBXProject "MerlinForsquare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADE520C21B796AD0006EAA9;
+			productRefGroup = DADE521621B796AD0006EAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADE521421B796AD0006EAA9 /* MerlinForsquare */,
+				DADE522821B796B00006EAA9 /* MerlinForsquareTests */,
+				DADE523321B796B00006EAA9 /* MerlinForsquareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADE521321B796AD0006EAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADE522321B796B00006EAA9 /* LaunchScreen.storyboard in Resources */,
+				DA9C078A21BCAA8C003C00D1 /* VenueTableViewCell.xib in Resources */,
+				DADE522021B796B00006EAA9 /* Assets.xcassets in Resources */,
+				DADE521E21B796AD0006EAA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADE522721B796B00006EAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADE523221B796B00006EAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40F43BC4DD117AAC5FABECCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MerlinForsquare/Pods-MerlinForsquare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MerlinForsquare/Pods-MerlinForsquare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A103092875FF9104178378D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerlinForsquare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADE521121B796AD0006EAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADE524B21B799380006EAA9 /* NetworkController.swift in Sources */,
+				DA9C078921BCAA8C003C00D1 /* VenueTableViewCell.swift in Sources */,
+				DAD5F6D021BE061600258502 /* StringExtensions.swift in Sources */,
+				DADE524D21B79DA90006EAA9 /* Venue.swift in Sources */,
+				DA2D687321BAF7D7006D70B1 /* GridViewController.swift in Sources */,
+				DAD5F6CD21BE003000258502 /* VenuePin.swift in Sources */,
+				DADE521921B796AD0006EAA9 /* AppDelegate.swift in Sources */,
+				DA2D687121BAF7AE006D70B1 /* MapViewViewController.swift in Sources */,
+				DAD5F6CB21BD9D8E00258502 /* ImageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADE522521B796B00006EAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADE523021B796B00006EAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADE522B21B796B00006EAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADE521421B796AD0006EAA9 /* MerlinForsquare */;
+			targetProxy = DADE522A21B796B00006EAA9 /* PBXContainerItemProxy */;
+		};
+		DADE523621B796B00006EAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADE521421B796AD0006EAA9 /* MerlinForsquare */;
+			targetProxy = DADE523521B796B00006EAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADE521C21B796AD0006EAA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADE521D21B796AD0006EAA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADE522121B796B00006EAA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADE522221B796B00006EAA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADE523B21B796B00006EAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADE523C21B796B00006EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADE523E21B796B00006EAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0970437074ECBC2C2936061 /* Pods-MerlinForsquare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PHWN55R5A;
+				INFOPLIST_FILE = MerlinForsquare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.merlin.forsquare.integration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADE523F21B796B00006EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A775C499F9930D965149F1 /* Pods-MerlinForsquare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PHWN55R5A;
+				INFOPLIST_FILE = MerlinForsquare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.merlin.forsquare.integration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DADE524121B796B00006EAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerlinForsquareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.merlin.forsquare.integration.MerlinForsquareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerlinForsquare.app/MerlinForsquare";
+			};
+			name = Debug;
+		};
+		DADE524221B796B00006EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerlinForsquareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.merlin.forsquare.integration.MerlinForsquareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerlinForsquare.app/MerlinForsquare";
+			};
+			name = Release;
+		};
+		DADE524421B796B00006EAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerlinForsquareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.merlin.forsquare.integration.MerlinForsquareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerlinForsquare;
+			};
+			name = Debug;
+		};
+		DADE524521B796B00006EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MerlinForsquareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.merlin.forsquare.integration.MerlinForsquareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MerlinForsquare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADE521021B796AD0006EAA9 /* Build configuration list for PBXProject "MerlinForsquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADE523B21B796B00006EAA9 /* Debug */,
+				DADE523C21B796B00006EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADE523D21B796B00006EAA9 /* Build configuration list for PBXNativeTarget "MerlinForsquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADE523E21B796B00006EAA9 /* Debug */,
+				DADE523F21B796B00006EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADE524021B796B00006EAA9 /* Build configuration list for PBXNativeTarget "MerlinForsquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADE524121B796B00006EAA9 /* Debug */,
+				DADE524221B796B00006EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADE524321B796B00006EAA9 /* Build configuration list for PBXNativeTarget "MerlinForsquareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADE524421B796B00006EAA9 /* Debug */,
+				DADE524521B796B00006EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DADE520D21B796AD0006EAA9 /* Project object */;
+}
